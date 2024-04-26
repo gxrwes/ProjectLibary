@@ -40,3 +40,6 @@ these are the launchoptions:
 - High Quality 2K60 Surround: --preset="High Quality 2K60 Surround"
 - High Quality 4K60 Surround: --preset="High Quality 4K60 Surround"
 
+## WLog
+A Logger for C# to help with debugging, supports visibility and passwords.
+Also takes care of saving logs.
