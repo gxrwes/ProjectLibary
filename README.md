@@ -41,5 +41,28 @@ these are the launchoptions:
 - High Quality 4K60 Surround: --preset="High Quality 4K60 Surround"
 
 ## WLog
-A Logger for C# to help with debugging, supports visibility and passwords.
-Also takes care of saving logs.
+A Logger Libary that formats and creates Logfiles
+*Latest Version:* 1.0.0
+
+### Usage
+```
+WLog.Log(message, LogLevel.Debug, output);
+```
+
+Will Log to console and write to file
+```
+"[DEBUG][WLogTests.Log_DebugLevel_CorrectLogOutput]: {message}"
+```
+
+### Saved Logs
+
+One logfile per day is saved, each should have a header with the version it was logged with.
+Logfiles are saved under /wlogs of ur rund directory
+
+### Console Formatting
+
+WLog should add some fun colours to the log, this does not work in every console though, not tested completley
+
+### Testing
+
+WLog formatting and saving is Unit-Tested. Colourisation is not.
